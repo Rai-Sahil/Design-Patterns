@@ -13,7 +13,6 @@ public class StockGrabber implements Subject{
 
     /**
      * Add it in the array list
-     * @param newObserver
      */
     @Override
     public void register(Observer newObserver) {
@@ -22,7 +21,6 @@ public class StockGrabber implements Subject{
 
     /**
      * remove them from the arrayList
-     * @param deleteObserver
      */
     @Override
     public void unRegister(Observer deleteObserver) {
@@ -39,7 +37,6 @@ public class StockGrabber implements Subject{
         for (Observer observers : observer){
             observers.update(ibmPrice, aaplPrice, googPrice);
         }
-        
     }
 
     public void setIbmPrice(double newIBMPrice){
