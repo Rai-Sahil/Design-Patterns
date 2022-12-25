@@ -40,7 +40,7 @@ public class PhoneBuilder implements IPhoneBuilder {
         return this;
     }
 
-    public Phone getPhone(){
+    public Phone getPhone() {
         return new Phone(os, ram, processor, screeSize, battery);
     }
 }

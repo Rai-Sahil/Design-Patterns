@@ -1,4 +1,4 @@
-package org.example.ObserverPattern;
+package org.example.ObserverPattern.StocksExample;
 
 import java.util.ArrayList;
 

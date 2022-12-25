@@ -3,6 +3,7 @@ package org.example.ObserverPattern.YoutubeExample;
 public class Youtube {
 
     public static void main(String[] args) {
+        //Creating Channel
         Channel sahil = new Channel();
 
         //Making Subscribers
@@ -31,6 +32,6 @@ public class Youtube {
 
         //Unsubscribing...
         sahil.unRegister(s3);
-    }
 
+    }
 }
