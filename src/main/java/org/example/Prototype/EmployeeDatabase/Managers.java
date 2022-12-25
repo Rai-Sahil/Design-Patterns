@@ -24,8 +24,9 @@ public class Managers implements Employees{
     @Override
     public Employees makeCopy() throws CloneNotSupportedException {
         System.out.println("Managers are being made...");
-        Managers manager;
-        manager = (Managers) super.clone();
+        Managers manager = new Managers(managers);
+        //This is not good, it's not deep cloning.
+//        manager = (Managers) super.clone();
         return manager;
     }
 }
