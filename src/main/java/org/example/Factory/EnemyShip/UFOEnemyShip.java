@@ -3,7 +3,6 @@ package org.example.Factory.EnemyShip;
 public class UFOEnemyShip extends EnemyShip{
 
     UFOEnemyShip () {
-        setName("UFO Enemy Ship");
-        setDamage(20.0);
+        super("UFO Enemy SHip", 20.0);
     }
 }

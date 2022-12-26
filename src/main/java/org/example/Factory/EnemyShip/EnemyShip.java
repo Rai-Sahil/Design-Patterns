@@ -5,6 +5,11 @@ public abstract class EnemyShip {
     private String name;
     private double damage;
 
+    EnemyShip(String name, double damage) {
+        this.name = name;
+        this.damage = damage;
+    }
+
     public String getName() {
         return name;
     }
